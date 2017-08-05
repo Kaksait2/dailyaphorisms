@@ -27,7 +27,7 @@ public class Aphorisms extends AppCompatActivity {
 
     // Users are limited to 3 quotes a day.
     // TODO: How to restrict users from resetting dailycount when app restarts?
-    private int hardLimit = 2;
+    private int hardLimit = 5;
 
     // TODO: Put in config file (get fr server)
     private final static int QUOTES_TOTAL = 30;
